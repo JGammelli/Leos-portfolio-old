@@ -1,0 +1,33 @@
+@import "portfolio";
+@import "nav";
+@import "about";
+@import "contact";
+@import "effects";
+@import "musicBox";
+@import "slideInText";
+@import "colorVariable";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+    color: rgb(8, 8, 8);
+
+    letter-spacing: 0.2em;
+    line-height: 2.5em;
+
+    
+}
+
+body, html{
+    height: 100vh;
+}
+

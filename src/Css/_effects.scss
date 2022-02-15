@@ -1,0 +1,47 @@
+//Effects for video + text in portfolio
+@import "colorVariable";
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+    visibility: visible;
+}
+
+.slideContainer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(1em, 1fr) repeat(2, 1em, 1fr);
+}
+
+.from-right{
+    grid-column: 2/3;
+    transform: translateX(-20%);
+    visibility: hidden;
+
+}
+
+.from-left{
+    grid-column: 3/4;
+    transform: translateX(50%);
+    transition: opacity 250ms ease-in;
+    visibility: hidden;
+
+}
+
+.from-right, .from-left{
+    transition: transform 400ms ease-in;
+}
+
+.from-right.appear, .from-left.appear{
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.slide-in{
+    background-color: $black;
+    color: $white;
+}

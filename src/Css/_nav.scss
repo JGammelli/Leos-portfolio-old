@@ -1,0 +1,32 @@
+@import "colorVariable";
+
+#nav{
+    background-color: $black;
+    order: 2;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    ul{
+        padding: 1em;
+        list-style-type:none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+  
+    a{
+        text-decoration: none;
+        color: $white;
+        font-size: 2em;
+        
+    }
+    a:hover{
+        color: $hover;
+    }
+   
+
+}
+

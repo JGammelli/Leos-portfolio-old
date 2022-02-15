@@ -1,0 +1,63 @@
+@import "colorVariable";
+
+#contactSection{
+    order: 5;
+    background: url("../Images/background.png");
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(10, 10vh);
+}
+
+.contactWrap{
+    
+    background-color: $black;
+    color: $white;
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start:3;
+    grid-row-end:10;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
+}
+
+.contactBox{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end: 3;
+    h1{
+        font-size: 2em;
+    }
+   
+}
+
+.contactInfo{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    p{
+        font-size:1.3em;
+    }
+
+}
+
+.siteByInfo{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 9;
+}
+
