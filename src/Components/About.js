@@ -10,13 +10,13 @@ class About extends React.Component{
             <section id="aboutProfile">
                 <div id="nameBox" className="aboutName">
                     <h2>About</h2>
-                    <h1>Jenny Eriksson</h1>
-                    <p>Composer</p>
+                    <h1>Leo Wahlund</h1>
+                    <p>Game Designer</p>
                 </div>             
               </section>
             <section id="aboutSection">
                 <div id="aboutContainer">
-                    <h1 className="textReveal aboutItem">Hi, I’m Jenny!</h1>
+                    <h1 className="textReveal aboutItem">Hi, I’m Leo!</h1>
                     <div id="aboutBox">                      
                                                   
                         <p className="textReveal aboutItem">

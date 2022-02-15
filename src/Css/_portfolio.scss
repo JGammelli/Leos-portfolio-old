@@ -1,6 +1,6 @@
 @import "colorVariable";
 #profileSection{
-    background: url("../Images/profile.jpg");
+    background: black;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -12,7 +12,7 @@
     grid-template-columns: repeat(8, 20em);
     grid-template-rows: repeat(9, 10em);
     h1,h2,p{
-        color: $black;
+        color: white;
         font-weight: 100;
     }
 
@@ -20,7 +20,6 @@
 }
 
 #portfolieSection{
-    background-image: url("../Images/background.png");
     order: 3;
     position: relative;
     background-attachment: fixed;

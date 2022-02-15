@@ -1,13 +1,11 @@
 @import "colorVariable";
 
 #nav{
-    background-color: $black;
-    order: 2;
     z-index: 10;
-    box-shadow: rgba(0, 0, 0, 0.219) 0px 50px 50px 7px;
-    position: sticky;
+    order: 1;
+    position: fixed;
     top: 0;
-    width: 100vw;
+    width: 15vw;
     ul{
         padding: 1em;
         list-style-type:none;
@@ -20,7 +18,8 @@
     a{
         text-decoration: none;
         color: $white;
-        font-size: 2em;
+        font-size: 1em;
+        color: white;
         
     }
     a:hover{

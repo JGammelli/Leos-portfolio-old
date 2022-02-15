@@ -10,8 +10,8 @@ class Contact extends React.Component{
                             <h1>Contact:</h1>
                         </div>
                         <div className="contactInfo">
-                            <h3>Jenny Eriksson</h3>
-                            <p>Email: eriksson.jenny97@gmail.com</p>
+                            <h3>Leo Wahlund</h3>
+                            <p>Email: leo.wahlund@gmail.com</p>
                         </div>
                         <div className="siteByInfo">
                             <h4>Site by</h4>

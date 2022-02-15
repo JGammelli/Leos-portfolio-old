@@ -1,5 +1,4 @@
 import React from "react";
-import Music from "./Music";
 
 class Portfolio extends React.Component{
   componentDidMount(){
@@ -36,12 +35,11 @@ class Portfolio extends React.Component{
           <section id="profileSection">
             <div className="portfolieName" >
                 <h2>Portfolio</h2>
-                <h1>Jenny Eriksson</h1>
-                <p>Composer</p>
+                <h1>Leo Wahlund</h1>
+                <p>Game Designer</p>
             </div>             
           </section>
           <section id="portfolieSection">
-              <Music/>
           </section>
         </>
     );}
