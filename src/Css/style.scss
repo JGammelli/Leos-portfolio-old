@@ -2,7 +2,6 @@
 @import "nav";
 @import "about";
 @import "contact";
-@import "effects";
 @import "gameBox";
 @import "colorVariable";
 @import "projectPage";
@@ -30,4 +29,8 @@ body {
 body,
 html {
   height: 100vh;
+}
+
+svg {
+  margin-left: 1rem;
 }

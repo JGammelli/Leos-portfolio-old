@@ -59,34 +59,43 @@ export const Behemoth = () => {
         <img src={setupImg} alt="setup of the boardgame" />
         <ol>
           <li>Choose the player starting.</li>
+          <br />
           <li>
             The player going second then starts with choosing which one of the
             three face-up behemoths they want to start with.
           </li>
+          <br />
           <li>The starting player then chooses one of the remaining two.</li>
+          <br />
           <li>
             Turn another behemoth card up so that there are two upwards facing
             cards.
           </li>
+          <br />
           <li>The starting player may then begin their first turn.</li>
         </ol>
+        <br />
         <img src={setupImg2} alt="setup of the boardgame" />
         <h3>Turn overview</h3>
         <ol>
           <li>Choose the player starting.</li>
+          <br />
           <li>
             Eventual weapons are played before doing anything else during your
             turn.
           </li>
+          <br />
           <li>
             You can, during any time while it's your turn, recruit behemoths,
             buy Mutation Cards and Weapons as long as you have enough currency
             for it.
           </li>
+          <br />
           <li>
             The only required action during a turn is choosing an action from
             the Actionboard.
           </li>
+          <br />
         </ol>
         <h3>The Actionboard</h3>
         <p>The Actionboard consists of three actions:</p>
@@ -95,14 +104,17 @@ export const Behemoth = () => {
             Mutation Points
             <br /> -Gain Mutation points
           </li>
+          <br />
           <li>
             Recruitment points
             <br /> -Gain Recruitment points
           </li>
+          <br />
           <li>
             Attack
             <br /> -Attack enemy behemoths
           </li>
+          <br />
         </ol>
         <h4>On every action there are Power tokens.</h4>
         <p>
@@ -146,6 +158,7 @@ export const Behemoth = () => {
             Recruitment points
             <br /> -Gain +1 Recruitment point for every Power token
           </li>
+          <br />
           <li>
             Attack
             <br /> -Each power token grants the player the ability to attack

@@ -158,6 +158,21 @@
   margin-right: 15rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .aboutBread {
+    padding: 5rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+  }
+  .aboutBread p {
+    font-size: 1.5em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
 #contactSection {
   background: black;
   width: 100vw;
@@ -379,6 +394,14 @@
   margin-bottom: 2rem;
 }
 
+.rulesWrapper img {
+  margin-bottom: 1rem;
+}
+
+.imgText {
+  font-size: 0.7rem;
+}
+
 .behemothImg {
   margin: 0;
   width: 80%;
@@ -425,7 +448,7 @@
   padding-left: 5rem;
   background-color: #070707;
   color: #e9e9e9;
-  width: 50%;
+  width: 55%;
 }
 
 .cvWrap div {
@@ -474,5 +497,9 @@ body {
 body,
 html {
   height: 100vh;
+}
+
+svg {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
