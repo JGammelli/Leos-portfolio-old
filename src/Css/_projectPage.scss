@@ -1,0 +1,55 @@
+.projectWrapper {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    padding-bottom: 5rem;
+  }
+  img {
+    margin-bottom: 5rem;
+  }
+}
+
+.rulesWrapper {
+  h2,
+  p,
+  h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+.imgText {
+  font-size: 0.5rem;
+}
+
+.behemothImg {
+  margin: 0;
+  width: 80%;
+}
+
+.projectContainer {
+  padding-bottom: 5rem;
+  h2 {
+    padding-bottom: 2rem;
+  }
+}
+
+//for smaller devices
+@media screen and (max-width: 1024px) {
+  .projectWrapper {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    h1 {
+      padding-bottom: 5rem;
+    }
+  }
+
+  .projectContainer {
+    padding-bottom: 5rem;
+    h2 {
+      padding-bottom: 2rem;
+    }
+  }
+}

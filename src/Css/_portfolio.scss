@@ -1,48 +1,46 @@
 @import "colorVariable";
-#profileSection{
-    background: black;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    order: 1;
-    background-attachment: fixed;
-    background-position: center;
-    display: grid;
-    grid-template-columns: repeat(8, 20em);
-    grid-template-rows: repeat(9, 10em);
-    h1,h2,p{
-        color: white;
-        font-weight: 100;
-    }
-
-
+#profileSection {
+  background: black;
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  h1,
+  h2,
+  p {
+    color: white;
+    font-weight: 100;
+  }
 }
 
-#portfolieSection{
-    order: 3;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+#portfolieSection {
+  background: black;
+  position: relative;
+  overflow: hidden;
 }
 
-.portfolieName{
-    position: absolute;
-    grid-column-start: 2;
-    grid-row-start: 3;
-    h1{
-        font-size: 3.5em;
-        margin-bottom: 0.5em;
-    }
-    h2{
-        font-size: 2.5em;
-        margin-bottom: 1em;
-    }
-    p{
-        font-size: 1.8em;
-    }
+.portfolieName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+  }
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  p {
+    font-size: 1.8em;
+  }
+}
 
+//for smaller devices
+@media screen and (max-width: 1024px) {
+  #profileSection {
+    height: 30vh;
+  }
 }

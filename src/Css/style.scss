@@ -3,31 +3,31 @@
 @import "about";
 @import "contact";
 @import "effects";
-@import "musicBox";
-@import "slideInText";
+@import "gameBox";
 @import "colorVariable";
+@import "projectPage";
+@import "cv";
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#root{
-    display: flex;
-    flex-direction: column;
+#root {
+  display: flex;
+  flex-direction: column;
 }
-body{
-    overflow-x: hidden;
-    font-family: 'Playfair Display', serif;
-    color: rgb(8, 8, 8);
-
-    letter-spacing: 0.2em;
-    line-height: 2.5em;
-
-    
-}
-
-body, html{
-    height: 100vh;
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(8, 8, 8);
+  letter-spacing: 0.2em;
+  line-height: 2.5em;
+  background-color: black;
+  color: $white;
 }
 
+body,
+html {
+  height: 100vh;
+}
