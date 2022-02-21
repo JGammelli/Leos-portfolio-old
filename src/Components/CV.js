@@ -32,7 +32,6 @@ class CV extends React.Component {
               <li>C#</li>
               <li>C++</li>
               <li>GML</li>
-              <li>Git</li>
             </ul>
           </div>
           <div className="languageBox">
