@@ -16,7 +16,7 @@ class Contact extends React.Component {
             <br />
             <p>Email: leo.wahlund@gmail.com</p>
             <br />
-            <p>Phone: +46 76 039 76 64</p>
+            <p>Phone: +46 760 397 664</p>
           </div>
         </div>
       </section>
