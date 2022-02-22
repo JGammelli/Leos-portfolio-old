@@ -68,6 +68,51 @@ const data = [
       "An attempt at turning a board game I designed into a computer game. A result of me wanting to explore some key mechanical differences in online and offline card games and a project I’m still working on from time to time. It is still at the stage where I am mostly translating the board game over to Unity, it is playable with the core mechanics implemented. Since it is made mainly for testing out mechanics, the balance is currently a bit off and it is lacking the visual clarity that the board game has. I am hoping to start testing with more transformative mechanics soon, such as cards being able to attack their own teammates for benefits and buffs.",
     link: "Behemoth Battles, some design thoughts",
   },
+
+  {
+    title: "Neon Shooter",
+    file: require("../Img/neon.jpg").default,
+    information:
+      "A classic ball shooting game filled with odd effects. This game was made in order to study the effects that synergies have on game enjoyment. Three versions were created in order to compare the effect on players, one without synergies, one with premade ones and one where the player could choose what effects to combine. It is currently the only game I have made for mobile.",
+  },
+  {
+    title: "Slice dude",
+    file: require("../Img/SliceDude.gif").default,
+    information:
+      "Controls: WASD and Mouse SliceDude is the result of a short 12 hour game jam. I worked on the design, made quick prototypes and VFX that unfortunately didn't make it in. We tried making somewhat of a complete game in 12 hours and the result is an unpolished main mechanic. The goal we missed was making the slice feel satisfying to use. Solving this would start with making the hitbox larger, making it hit in front and around the player when the dash ends along with making the slice visually satisfying through effects and juice.",
+    href: (
+      <>
+        Google drive:{" "}
+        <a
+          href="https://drive.google.com/file/d/1KOZSj7uhzDVGTy9OnfuXgvdAcKJzuIGB/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          className="gameLink"
+        >
+          Slice Dude
+        </a>
+      </>
+    ),
+  },
+  {
+    title: "Unnamed platformer",
+    file: require("../Img/unnamedgame.gif").default,
+    information:
+      "The very early stages of a 2d platformer I am working on together with one other person where I am doing the design and programming. The objective as of now is to make a solid proof of concept, something that starts with making the movement and attacks crisp, providing agency to the player.",
+    href: (
+      <>
+        Git repo:{" "}
+        <a
+          href="https://github.com/LostmyCigar/Uncolored"
+          target="_blank"
+          rel="noreferrer"
+          className="gameLink"
+        >
+          Unnamed platformer
+        </a>
+      </>
+    ),
+  },
 ];
 
 class ProjectInfo extends React.Component {
@@ -81,6 +126,7 @@ class ProjectInfo extends React.Component {
         image={project.image}
         link={project.link}
         href={project.href}
+        other={project.other}
       />
     ));
   }
