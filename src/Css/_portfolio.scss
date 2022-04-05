@@ -43,3 +43,8 @@
     height: 30vh;
   }
 }
+@media screen and (max-height: 800px) {
+  #profileSection {
+    margin-top: 5rem;
+  }
+}

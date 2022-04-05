@@ -1,30 +1,34 @@
 .gameContainer {
   display: grid;
-  grid-template-columns: 10em 40em auto;
-  grid-template-rows: 5em auto;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 5em 20em 5em 5em auto;
+  text-align: center;
   padding: 5em;
+  margin-left: 15rem;
+  margin-right: 15rem;
   margin-bottom: 10em;
   h2 {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    padding-bottom: 1em;
+    grid-row-start: 4;
     align-self: end;
+    padding-bottom: 1em;
     font-size: 2em;
   }
   img {
-    grid-column-start: 1;
+    background: $movie;
+    grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
     width: 600px;
     max-height: 400px;
-    background: $movie;
     align-self: center;
+    justify-self: center;
   }
   p {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
+    grid-row-start: 5;
     font-size: 1.2em;
     font-weight: 900;
   }
@@ -43,6 +47,13 @@
   color: $hover;
 }
 
+@media screen and (max-width: 1600px) {
+  .gameContainer {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .gameContainer {
     display: grid;
@@ -56,19 +67,7 @@
       align-self: end;
       font-size: 1.4em;
     }
-    img {
-      grid-column-start: 2;
-      grid-row-start: 1;
-      grid-row-end: 3;
-      width: 600px;
-      max-height: 400px;
-      align-self: center;
-      justify-self: center;
-    }
     p {
-      grid-column-start: 2;
-      grid-column-end: 3;
-      grid-row-start: 5;
       font-size: 0.7em;
     }
   }
